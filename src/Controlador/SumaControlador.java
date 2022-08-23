@@ -42,6 +42,7 @@ public class SumaControlador implements Initializable {
 
             // Muestro el resultado
             this.txtResultado.setText(resultado + "");
+            this.txtOp2.setText("Ejemplo");
 
         } catch (NumberFormatException e) {
             // Alerta de error
